@@ -1,0 +1,54 @@
+4078 files to evaluate
+  100/4078  {"permit":84,"deny":16}
+  200/4078  {"permit":177,"deny":23}
+  300/4078  {"permit":277,"deny":23}
+  400/4078  {"permit":363,"deny":37}
+  500/4078  {"permit":450,"deny":50}
+  600/4078  {"permit":544,"deny":56}
+  700/4078  {"permit":630,"deny":70}
+  800/4078  {"permit":717,"deny":83}
+  900/4078  {"permit":797,"deny":103}
+  1000/4078  {"permit":872,"deny":128}
+  1100/4078  {"permit":956,"deny":144}
+  1200/4078  {"permit":1027,"deny":173}
+  1300/4078  {"permit":1121,"deny":179}
+  1400/4078  {"permit":1208,"deny":192}
+  1500/4078  {"permit":1296,"deny":204}
+  1600/4078  {"permit":1381,"deny":219}
+  1700/4078  {"permit":1469,"deny":231}
+  1800/4078  {"permit":1561,"deny":239}
+  1900/4078  {"permit":1644,"deny":256}
+  2000/4078  {"permit":1734,"deny":266}
+  2100/4078  {"permit":1824,"deny":276}
+  2200/4078  {"permit":1915,"deny":285}
+  2300/4078  {"permit":2011,"deny":289}
+  2400/4078  {"permit":2094,"deny":306}
+  2500/4078  {"permit":2187,"deny":313}
+  2600/4078  {"permit":2277,"deny":323}
+  2700/4078  {"permit":2365,"deny":335}
+  2800/4078  {"permit":2458,"deny":342}
+  2900/4078  {"permit":2549,"deny":351}
+  3000/4078  {"permit":2638,"deny":362}
+  3100/4078  {"permit":2731,"deny":369}
+  3200/4078  {"permit":2821,"deny":379}
+  3300/4078  {"permit":2919,"deny":381}
+  3400/4078  {"permit":3008,"deny":392}
+  3500/4078  {"permit":3095,"deny":405}
+  3600/4078  {"permit":3184,"deny":416}
+  3700/4078  {"permit":3273,"deny":427}
+  3800/4078  {"permit":3365,"deny":435}
+  3900/4078  {"permit":3456,"deny":444}
+  4000/4078  {"permit":3546,"deny":454}
+  4078/4078  {"permit":3612,"deny":466}
+
+Final counts: { permit: 3612, deny: 466 }
+Full results: corpus-eval-results.csv
+node[139923]: ../src/node.cc:701:void node::ResetStdio(): Assertion `!(err != 0) || (err == -1 && (*__errno_location ()) == 1)' failed.
+ 1: 0x72621e60633c node::Abort() [/lib/x86_64-linux-gnu/libnode.so.109]
+ 2: 0x72621e6063cb  [/lib/x86_64-linux-gnu/libnode.so.109]
+ 3: 0x72621e5b88c6  [/lib/x86_64-linux-gnu/libnode.so.109]
+ 4: 0x72621e5b9926 node::TearDownOncePerProcess() [/lib/x86_64-linux-gnu/libnode.so.109]
+ 5: 0x72621e5be591 node::Start(int, char**) [/lib/x86_64-linux-gnu/libnode.so.109]
+ 6: 0x72621d82a1ca  [/lib/x86_64-linux-gnu/libc.so.6]
+ 7: 0x72621d82a28b __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 8: 0x5d02a5f92035 _start [node]

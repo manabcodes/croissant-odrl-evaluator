@@ -1,0 +1,16 @@
+{
+  "name": "croissant-odrl-evaluator",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "build": "tsc -p ." },
+  "dependencies": {
+    "@jeswr/pretty-turtle": "^1.8.2",
+    "jsonld": "^8.3.2",
+    "n3": "^1.17.2",
+    "odrl-evaluator": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.4"
+  }
+}
